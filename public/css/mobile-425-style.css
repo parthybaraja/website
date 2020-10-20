@@ -1,0 +1,67 @@
+@media only screen and (max-width: 425px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    header .row .col-md-12 {
+       margin-left: 2rem;
+    }
+
+    header .container .col-md-12 h6 {
+        font-size: 0.7rem;
+    }
+
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 12rem;
+    }
+
+    .work-experience .row .col-md-6 .panel h1 {
+        font-size: 0.8em;
+    }
+    
+    .work-experience .row .col-md-6 .panel h3 {
+        font-size: 0.8rem;
+    }
+    
+    .work-experience .row .col-md-6 .panel h6 {
+        font-size: 0.48rem;
+    }
+    
+    .work-experience .row .col-md-6 .panel p {
+        font-size: 0.8rem;
+    }
+
+    .work-experience .row .col-md-6 .panel {
+        left: 4vmin;
+    }
+
+    .skills .technical {
+        padding: 0;
+    }
+
+    .skills .professional {
+        height: 32px;
+    }
+
+    .skills .professional h3 {
+        font-size: 2.5vmin;
+    }
+
+    .achievements .card {
+        width: 13rem;
+        height: 20rem;
+        margin-left: 21vmin;
+    }
+    
+    .email-section {
+        margin-bottom: 5vmin;
+    }
+
+    .intern>h1 {
+        font-size: 6vmin;
+    }
+
+    .skills .col-md-12>h1 {
+        font-size: 5vmin;
+    }
+}

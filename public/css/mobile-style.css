@@ -1,0 +1,13 @@
+@media only screen and (max-width: 767px) {
+    .work-experience .row .col-md-6 .panel {
+        top: 4vmin;
+        padding: 2vmin 2vmin 2vmin 2vmin;
+        left: 1vmin;
+        position: relative;
+    }
+
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 15rem;
+        left: 1rem;
+    }
+}

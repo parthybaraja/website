@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+    .work-experience .row .col-md-6 .panel {
+        top: 3vmin;
+        padding: 1vmin 1vmin 1vmin 1vmin;
+        left: -19vmin;
+    }
+
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 15rem;
+        left: 1rem;
+    }
+
+    .space-span {
+        padding-right: 151px;
+    }
+
+    .skills .technical h3 {
+        font-size: 3.2vmin;
+    }
+    
+    .skills .technical p {
+        font-size: 1.8vmin;
+    }
+
+    .skills .professional h3 {
+        font-size: 3.2vmin;
+        text-align: center;
+    }
+
+    .skills .professional {
+        padding: 3px 31px;
+        height: 71px;
+    }
+
+    .percentage .rect {
+        width: 9rem;
+        height: 8rem;
+    }
+
+    .percentage .rect h1{
+        font-size: 3rem;
+    }
+
+    .achievements .card {
+        width: 11rem;
+        height: 21rem;
+    }
+
+    .achievements .card .card-text {
+        padding-bottom: 0rem;
+        font-size: 0.65rem;
+    }
+
+    .achievements .card .card-body>a {
+        font-size: 1em;
+    }
+
+    .card p {
+        font-size: 0.67rem;
+    }
+
+    footer .logo-section{
+        width: 18px;
+    }
+}

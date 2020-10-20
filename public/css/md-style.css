@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1199px) {
+    .work-experience .row .col-md-6 .panel {
+        top: 6vmin;
+        padding: 3vmin 3vmin 3vmin 3vmin;
+    }
+
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 24rem;
+    }
+
+    .space-span {
+        padding-right: 131px;
+    }
+
+    .achievements .card {
+        width: 15rem;
+    }
+
+    footer {
+        padding: 10vmin 8vmin;
+    }
+}

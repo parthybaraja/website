@@ -1,0 +1,35 @@
+@media only screen and (max-width: 375px) {
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 10rem;
+    }
+
+    .work-experience .row .col-md-6 .panel p {
+        font-size: 0.6rem;
+    }
+
+    .cover .content p {
+        font-size: 3vmin;
+    }
+
+    .percentage .rect {
+        width: 8rem;
+    }
+
+    .skills .professional {
+        height: 27px;
+        padding: 3px 23px;
+    }
+    
+    .skills .professional h3{
+        font-size: 2vmin;
+    }
+
+    .achievements .card {
+        width: 11rem;
+        height: 18rem;
+    }
+
+    .card-body {
+        padding: 0.3em;
+    }
+}

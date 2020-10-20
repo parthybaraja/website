@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1024px) {
+    .work-experience .row .col-md-6 .panel {
+        top: 9vmin;
+        padding: 2vmin 2vmin 2vmin 2vmin;
+    }
+
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 21rem;
+        left: 3rem;
+    }
+
+    .work-experience .row .col-md-6 .panel h1 {
+        font-size: 1.5em;
+    }
+    
+    .work-experience .row .col-md-6 .panel h3 {
+        font-size: 1.5rem;
+    }
+    
+    .work-experience .row .col-md-6 .panel h6 {
+        font-size: 0.9rem;
+    }
+    
+    .work-experience .row .col-md-6 .panel p {
+        font-size: 1rem;
+    }
+
+    .space-span {
+        padding-right: 153px;
+    }
+
+    .percentage .rect {
+        width: 13rem;
+    }
+
+    .achievements .card {
+        width: 13rem;
+        height: 25rem;
+    }
+
+    .card .card-title {
+        font-size: 0.75rem;
+    }
+
+    .card .card-text {
+        padding: 2.5rem 3rem;
+        font-size: 0.75rem;
+    }
+
+    .card a {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+    }
+
+    .card-body {
+        padding: 1.25rem;
+    }
+
+    footer {
+        padding: 3vmin 5vmin;
+    }
+
+    footer h1 {
+        font-size: 1.5rem;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    footer .logo-section{
+        width: 19px;
+        height: 19px;
+    }
+
+    footer .input-group .email-border {
+        height: 32px;
+    }
+}

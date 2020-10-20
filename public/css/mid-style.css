@@ -1,0 +1,31 @@
+@media only screen and (max-width: 857px) {
+    .work-experience .row .col-md-6 .panel {
+        top: 8vmin;
+        padding: 1vmin 1vmin 1vmin 1vmin;
+    }
+
+    .work-experience .row .col-md-6 .infoview-image img{
+        width: 17rem;
+        left: 2rem;
+    }
+
+    .work-experience .row .col-md-6 .panel h1 {
+        font-size: 1em;
+    }
+    
+    .work-experience .row .col-md-6 .panel h3 {
+        font-size: 1rem;
+    }
+    
+    .work-experience .row .col-md-6 .panel h6 {
+        font-size: 0.6rem;
+    }
+    
+    .work-experience .row .col-md-6 .panel p {
+        font-size: 0.9rem;
+    }
+
+    .space-span {
+        padding-right: 160px;
+    }
+}

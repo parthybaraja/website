@@ -4,11 +4,502 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Parjey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/md-style.css">
+    <link rel="stylesheet" href="../public/css/laptop-1024-style.css">
+    <link rel="stylesheet" href="../public/css/mid-style.css">
+    <link rel="stylesheet" href="../public/css/tab-style.css">
+    <link rel="stylesheet" href="../public/css/mobile-style.css">
+    <link rel="stylesheet" href="../public/css/mobile-425-style.css">
+    <link rel="stylesheet" href="../public/css/mobile-375-style.css">
+    <link rel="stylesheet" href="../public/css/mobile-320-style.css">
 </head>
 
 <body>
 
+    <header>
+        <!--navigation bar-->
+        <div class="container-fluid p-0">
+            <nav id="navbar" class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#title">Parjey</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work-experience">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a class="nav-link">Skills</a>
+                                <div class="dropdown-content">
+                                    <a data-target="#skillsCarousel" data-slide-to="0" href="#skills">Technical</a>
+                                    <a data-target="#skillsCarousel" data-slide-to="1"
+                                        href="#professional-skills">Professional</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#achievements">Acheivements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Title content-->
+        <div id="title" class="container text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h6>Full Stack Web Developer | Event Organizer | Student Placement Coordinator</h6>
+                    <h1>Parthybaraja V</h1>
+                    <p>
+                        I am a Full stack Web developer and currently working as Web application developer role at
+                        Infoview Technologies Private Limited.<br>
+                        With more than 2years of Experience, I have become one of the main critical resources in my team
+                        which has about 15 members.<br> My goal is always to be the efficient resource for the
+                        organization
+                        to accomplish its targets
+                    </p>
+                    <a href="#work-experience" class="btn btn-light px-5 py-2">
+                        Know More
+                    </a>
+                    <a href="#about" class="btn btn-dark px-5 py-2">
+                        Get in touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Work experience-->
+        <section id="work-experience" class="work-experience">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="infoview-image">
+                            <img src="../public/assets/infoview-building-vertical.jpg" alt="Infoview">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <h1>Work Experience</h1>
+                            <h3>Infoview, Chennai — Web Application Developer</h3>
+                            <h6>JUNE 2018 – PRESENT</h6>
+                            <p class="pt-4">
+                                <span class="heading-color">Project: </span><span class="space-span">Interface
+                                    Framework</span> <span class="heading-color">Experience:</span> 2+ years<br>
+                                <br>
+                                This project involves analysis and conversion of data to productive information
+                                and transferring those data from external systems to various modules of ERP.
+                            </p>
+                            <p>
+                                <span class="heading-color">Responsibilities:</span> <br>
+                                Function development, WAR deployment, and ERP support<br>
+                                ● Create catalogue from the user specification.<br>
+                                ● Design requirements and get approval from the UI/UX team.<br>
+                                ● Agile methodology process (Design, Develop, Test, Evaluate).<br>
+                                ● Create a WAR package of current Project after evaluating it in local<br>
+                                <span class="bulletine-span">environment and provide it to ERP developers.</span><br>
+                                ● Provide support for the ERP developers to connect with interface.<br>
+                                ● Chennai Person In charge of Input Engine Module.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Education-->
+        <section id="education" class="education container-fluid p-0">
+            <div class="cover">
+                <div class="content text-center">
+                    <h1>Educational Qualification</h1>
+                    <p>
+                        Scored a consitent mark of above 80% in both school and college.
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="percentage d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>87%</h1>
+                        <p>SSLC</p>
+                    </div>
+                    <div class="rect">
+                        <h1>89%</h1>
+                        <p>HSC</p>
+                    </div>
+                    <div class="rect">
+                        <h1>82%</h1>
+                        <p>B.E. CSE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Internship-->
+        <section class="internship container-fluid p-0">
+            <div class="intern text-center">
+                <h1>Internship Experience</h1>
+                <div class="cards">
+                    <div class="d-flex flex-row justify-content-center flex-wrap">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h3 class="card-title">Star Drives</h3>
+                                    <h6>Coimbatore — June 2016</h6>
+                                </div>
+                                <p class="card-text">
+                                    Analysed the product and working of the company for a week and created an
+                                    application based on mechanical gear box manufactured by the company. Our
+                                    application helps the company to make their gear box parts cost estimation
+                                    easier than before.
+                                </p>
+                                <img id="star-drives" class="display-none" src="../public/assets/star drives.JPG"
+                                    alt="Star Drives">
+                                <div id="view-more" class="view">
+                                    <button class="btn btn-dark px-5 py-2 mb-4 mt-4" onclick="viewMore()">View
+                                        more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Skills-->
+        <section id="skills" class="skills container-fluid p-0">
+            <div id="skillsCarousel" class="carousel slide" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!--Technical skills carousel-->
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h1>Technical Skills</h1>
+                            </div>
+                        </div>
+                        <div class="technical-skills row">
+                            <div class="col-6 text-right">
+                                <div class="technical shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">JAVA</h3>
+                                            <p class="p-0 m-0 text-center">2 years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-left">
+                                <div class="technical shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">CSS</h3>
+                                            <p class="p-0 m-0 text-center">2 years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <div class="technical shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">HTML</h3>
+                                            <p class="p-0 m-0 text-center">2 years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-left">
+                                <div class="technical shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Java Script</h3>
+                                            <p class="p-0 m-0 text-center">2 years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <div class="technical shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Angular</h3>
+                                            <p class="p-0 m-0 text-center">1 year</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-left">
+                                <div class="technical shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Spring MVC</h3>
+                                            <p class="p-0 m-0 text-center">2 years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="professional-skills" class="carousel-item">
+                        <!--Professional Skills carousel-->
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h1>Professional Skills</h1>
+                            </div>
+                        </div>
+                        <div class="professional-skills row">
+                            <div class="col-6 text-right">
+                                <div class="professional shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Quick Learner</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-left">
+                                <div class="professional shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Analytical ability</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <div class="professional shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Easy adaptability</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-left">
+                                <div class="professional shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Troubleshooting</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <div class="professional shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Effficient Programming</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-left">
+                                <div class="professional shadow-lg">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="text text-left">
+                                            <h3 class="pt-1 m-0">Project Documentation</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" data-target="#skillsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" data-target="#skillsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <!--Achievements-->
+        <section id="achievements" class="achievements container-fluid p-0">
+            <div class="container text-center">
+                <h1 class="text-dark">Awards And Acheivements</h1>
+            </div>
+            <div class="awards row">
+                <div class="col-4 text-center">
+                    <!--card 1-->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../public/assets/Oracle java se7.JPG" alt="Oracle java se7"
+                                class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Java SE 7</h3>
+                            <p class="card-text">
+                                Completed Java SE 7 course at Be Positive institute at the year 2018.
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none"> Awarded by</a>
+                            <p class="text-black-50">Oracle University</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <!-- Carousel started-->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"
+                        data-interval="2500">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <!--card 2-->
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="../public/assets/GCT mastermind.JPG" alt="GCT mastermind"
+                                            class="img-fluid p-4">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">MaterMind</h3>
+                                        <p class="card-text gct">
+                                            Secured second place in Master Mind event.
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">Awarded by</a>
+                                        <p class="text-black-50">GCT, Coimbatore</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <!-- card 3-->
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="../public/assets/IBM c and cplusplus.JPG" alt="IBM c and c++"
+                                            class="img-fluid p-4">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Completed C and C++ programming course at KALVI institue at the year of
+                                            2014.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <!-- card 4-->
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="../public/assets/GCT mathmagic.JPG" alt="GCT mathmagic"
+                                            class="img-fluid p-4">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">MathMagic</h3>
+                                        <p class="card-text gct">
+                                            Secured third place in Math Magic event.
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">Awarded by</a>
+                                        <p class="text-black-50">GCT, Coimbatore</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <!-- card 5-->
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="../public/assets/BEC priliminary.jpg" alt="BEC priliminary"
+                                            class="img-fluid p-4">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">BEC preliminary</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <!-- card 6-->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../public/assets/hacker rank.JPG" alt="hackerrank badge"
+                                class="img-fluid img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Hacker Rank Badge</h3>
+                            <p class="card-text">
+                                Accomplished gold level badge in category of problem solving and c++.
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none"> Awarded by</a>
+                            <p class="text-black-50">HackerRank</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="about" class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-sm-5">
+                    <h1 class="text-light">More about Me</h1>
+                    <p class="text-muted">
+                        Held IF Training sessions for freshers at Infoview.
+                    </p>
+                    <p class="text-muted">
+                        Held Placement sessions for colleagues and juniors at SKCT.
+                    </p>
+                    <p class="text-muted">
+                        Full professional proficiency in English and Native proficiency in Tamil.
+                    </p>
+                    <p class="text-muted">
+                        Copyrights 2020. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-5 email-section">
+                    <h4 class="text-light">Contact</h4>
+                    <p class="text-muted">To stay in touch drop a mail</p>
+                    <form class="form-inline">
+                        <div class="col pl-0">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white email-border"
+                                    placeholder="Email">
+                                <button class="input-group-text email-border">Go!</button>
+                                <!-- <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        Go!
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Follow Me</h4>
+                    <p class="text-muted">Let us be connected everywhere!!</p>
+                    <div class="column">
+                        <img class="logo-section facebook" src="../public/assets/facebook.png" alt="facebook">
+                        <img class="logo-section instagram" src="../public/assets/ig.png" alt="instagram">
+                        <img class="logo-section twitter" src="../public/assets/twitter.png" alt="twitter">
+                        <img class="logo-section youtube" src="../public/assets/youtube.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <script src="../public/js/index.js"></script>
 </body>
 
 </html>

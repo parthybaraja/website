@@ -1,0 +1,22 @@
+@media only screen and (max-width: 320px) {
+    .percentage .rect {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .percentage .rect h1{
+        font-size: 2rem;
+    }
+
+    .skills .col-md-12>h1 {
+        padding: 1em 0 0.5em 2rem;
+    }
+
+    .skills .professional {
+        padding: 3px 8px;
+    }
+
+    .skills .professional h3 {
+        font-size: 2.5vmin;
+    }
+}

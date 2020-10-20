@@ -1,0 +1,440 @@
+/**google fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lobster&family=Merriweather+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100% !important;
+}
+
+:root {
+    --title-font: "Berkshire Swash", cursive;
+    --content-font: "Merriweather Sans", cursive;
+    --Patua: "Patua One", cursive;
+    --optional-font: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,203,50,1) 0%, rgba(244,56,98,1) 100.2% );
+    --light-gray: rgba(255,255,255,0.5);
+}
+
+.heading-color {
+    color: orange;
+}
+
+header a{
+    font-family: var(--title-font);
+    font-size: 0.9rem;
+    color: black;
+}
+
+header {
+    background: #dd8d24;
+    background: var(--bggradient);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: var(--light-gray);
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5rem;
+}
+
+header .nav-item {
+    padding: 0.9rem;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .navbar-brand:hover, .nav-link:hover {
+    color: white;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+header .row .col-md-12 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--content-font);
+    color: black;
+}
+
+header .container .col-md-12 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-12 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+    font-family: var(--title-font);
+}
+
+header .container .col-md-12 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-12 a {
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 0.3rem;
+    font-family: var(--content-font);
+}
+
+header .container .col-md-12 .btn-dark {
+    background-color: black;
+}
+
+header .container .col-md-12 .btn-dark:hover {
+    color: rgb(211, 211, 211);
+}
+
+/*work-experience*/
+
+.work-experience {
+    padding: 10vmin 0;
+}
+
+.work-experience .row .col-md-6 .infoview-image img{
+    opacity: 0.8;
+    width: 27rem;
+    border-radius: 5rem;
+    position: relative;
+    left: 5rem;
+}
+
+.work-experience .row .col-md-6:last-child {
+    position: relative;
+}
+
+.work-experience .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -24vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 7vmin 6vmin 7vmin 7vmin;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+    font-family: var(--content-font);
+    z-index: 1;
+    max-width: 48rem !important;
+}
+
+.work-experience .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4rem 0;
+    font-size: 2em;
+    font-family: var(--title-font);
+}
+
+.work-experience .row .col-md-6 .panel h3 {
+    font-size: 1.50rem;
+    color: orange;
+}
+
+.work-experience .row .col-md-6 .panel h6 {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.work-experience .row .col-md-6 .panel p {
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.5);
+    text-align: justify;
+}
+
+.space-span {
+    padding-right: 155px;
+}
+
+.bulletine-span {
+    padding-left: 16px;
+}
+
+/**Educational qualification**/
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: orange;
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content h1 {
+    font-family: var(--title-font);
+    font-size: 6vmin;
+    color: black;
+}
+
+.cover .content p {
+    font-family: var(--content-font);
+    font-size: 2vmin;
+    color: lightgray;
+}
+
+.percentage .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(3, 3, 3, 0.534);
+}
+
+.percentage {
+    margin-top: -15vmin;
+}
+
+.percentage .rect h1 {
+    font-size: 5rem;
+    color: tomato;
+}
+
+.percentage .rect p {
+    font-family: var(--Patua);
+}
+
+/** intership experience**/
+.intern>h1 {
+    padding-top: 9vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--title-font)
+}
+
+.intern>p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+    font-family: var(--content-font);
+}
+
+.intern .cards .card {
+    width: 70rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgba(251,150,0,0.2);
+    padding: 1.44rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .display-none {
+    display: none;
+}
+
+.card-body #star-drives {
+    width: 55%;
+}
+
+.card-body .view {
+    background: rgba(251,150,0,0.2);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+/** skills**/
+.skills{
+    height: 70vmin;
+    margin-top: 10vmin;
+    background: var(--bggradient);
+}
+
+.skills .col-md-12>h1 {
+    padding:2em 0 0.5em 4rem;
+    color: black;
+    font-size: 6vmin;
+    font-family: var(--title-font);
+}
+
+.skills.col-md-12>p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+
+.skills .technical {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    margin: 1em;
+    width: 50%;
+    padding: 5px 0;
+}
+
+.skills .professional {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    margin: 1em;
+    width: 63%;
+    padding: 25px 64px;
+}
+
+.skills .technical h3 {
+    font-size: 4vmin;
+}
+
+.skills .technical p {
+    font-size: 2vmin;
+}
+
+.technical-skills, .professional-skills {
+    margin-left: 0;
+}
+
+/** awards **/
+
+.achievements .container h1 {
+    font-size: 6vmin;
+    padding-top: 7vmin;
+    font-family: var(--title-font);
+}
+
+.achievements .awards {
+    padding: 0vmin 4vmin;
+    padding-bottom: 4vmin;
+}
+
+.achievements .card {
+    width: 22rem;
+    margin-top: 10vmin;
+    height: 32rem;
+    border-radius: 1.25rem !important;
+}
+
+.achievements .card .card-text {
+    padding: 0.5em;
+    padding-bottom: 1rem;
+}
+
+.achievements .card .gct{
+    padding: 0.5em;
+    padding-bottom: 1rem;
+}
+.achievements .card .card-body>a {
+    font-size: 1.5em;
+}
+
+/* footer */
+
+footer {
+    background: rgba(0,0,0,0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+footer .input-group .email-border {
+    border-radius: 15px !important;
+}
+
+footer .logo-section{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+}
+
+/*stikcy*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.541);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+/** scroll bar design**/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
